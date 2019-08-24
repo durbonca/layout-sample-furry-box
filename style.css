@@ -1,0 +1,155 @@
+:root {
+    /* colores */
+    --green: #7ACC2D;
+    --white: #FFFFFF;
+    --gray: #EEEEEE;
+    --dark: #313337;
+    --black: #000000;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--white);
+}
+
+nav {
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+body nav div a {
+    color: var(--dark);
+    text-decoration: none;
+    margin-right: 22px;
+    font-size: 12px;
+}
+
+body nav div a:hover {
+    color: var(--white);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+p {
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    font-size: 12px;
+}
+
+#hero {
+    padding: 150px 20% 2%;
+    margin-bottom: 250px;
+}
+
+#hero h1 {
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    background-image: url(images/curve.png);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    padding: 10% 25%;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.box {
+    background-color: var(--white);
+    align-content: center;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 0px black;
+    padding: 3%;
+    margin-top: -300px;
+}
+
+.box_image {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: block;
+    background-color: var(--green);
+    padding: 3%;
+    margin: 5% 0%;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #9be258;
+}
+
+.productos2 {
+    display: flex;
+    padding: 5% 10%;
+    justify-content: space-between;
+}
+
+.productos2 img {
+    display: block;
+    margin: 0% auto;
+    width: 60%;
+}
+
+.box2 {
+    padding: 5%;
+}
+
+.box2 h3,
+.box2 p {
+    margin-left: 10%;
+}
+
+.menciones {
+    padding: 0% 10% 5%;
+}
+
+.menciones h1 {
+    text-align: center;
+}
+
+.menciones .items {
+    display: flex;
+}
+
+.card {
+    box-shadow: 1px 1px 4px 0px black;
+    margin: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3,
+.card p {
+    padding: 5px;
+    margin: 0%
+}
+
+footer {
+    display: flex;
+    background-color: var(--dark);
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 12px;
+}
