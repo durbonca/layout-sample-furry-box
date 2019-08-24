@@ -5,6 +5,7 @@
     }
     .productos {
         display: inherit;
+        padding: 10% 10%;
     }
     .box {
         margin-top: 10px;
