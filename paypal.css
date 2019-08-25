@@ -1,0 +1,23 @@
+:root {
+    /* colores */
+    --green: #7ACC2D;
+    --white: #FFFFFF;
+    --gray: #EEEEEE;
+    --dark: #313337;
+    --black: #000000;
+    --border: 1px 1px 4px 0px black;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--white);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center
+}
+
+.content_paypal a {
+    color: var(--green);
+}
