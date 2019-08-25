@@ -5,6 +5,7 @@
     --gray: #EEEEEE;
     --dark: #313337;
     --black: #000000;
+    --border: 1px 1px 4px 0px black;
 }
 
 body {
@@ -40,11 +41,15 @@ h2 {
     font-size: 17px;
 }
 
-p {
+p,
+label {
     margin-inline-start: 5px;
     margin-inline-end: 5px;
     font-size: 12px;
 }
+
+
+/*______________________ INDEX__________________ */
 
 #hero {
     padding: 150px 20% 2%;
@@ -69,8 +74,11 @@ p {
     background-color: var(--white);
     align-content: center;
     margin: 10px;
-    box-shadow: 1px 1px 10px 0px black;
+    box-shadow: var(--border);
     padding: 3%;
+}
+
+.productos .box {
     margin-top: -300px;
 }
 
@@ -82,12 +90,15 @@ p {
 .button {
     display: block;
     background-color: var(--green);
-    padding: 3%;
     margin: 5% 0%;
     color: var(--white);
     text-decoration: none;
     border-radius: 3px;
     text-align: center;
+}
+
+body section.productos.fadeInUp a {
+    padding: 3%;
 }
 
 .button:hover {
@@ -128,7 +139,7 @@ p {
 }
 
 .card {
-    box-shadow: 1px 1px 4px 0px black;
+    box-shadow: var(--border);
     margin: 5px;
 }
 
@@ -142,6 +153,9 @@ p {
     margin: 0%
 }
 
+
+/*______________________ PRODUCTS__________________ */
+
 .productDescription {
     margin: auto;
 }
@@ -149,6 +163,41 @@ p {
 .col-4 img {
     width: 100%;
 }
+
+
+/*______________________ FORM__________________ */
+
+.form-section {
+    margin: 5%;
+    padding: 5%;
+}
+
+.form {
+    padding: 5%;
+    box-shadow: var(--border);
+    display: block;
+}
+
+.form label,
+{
+    padding-top: 3%;
+    height: 35px;
+}
+
+.form input {
+    height: 40px;
+    border-radius: 2px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+input.button {
+    border: none;
+    font-weight: bold;
+}
+
+
+/*______________________ FOOTER__________________ */
 
 footer {
     display: flex;
