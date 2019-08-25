@@ -165,6 +165,14 @@ body section.productos.fadeInUp a {
 }
 
 
+/*______________________ FAQS__________________ */
+
+.faqs h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
 /*______________________ FORM__________________ */
 
 .form-section {
